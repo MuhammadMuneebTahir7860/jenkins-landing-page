@@ -1,0 +1,27 @@
+.titleContainer{
+    background-color: rgb(248, 249, 251) !important;
+    padding-bottom: 7px !important;
+}
+
+#logoImg{
+    margin-top: 5px;
+}
+
+#page-title{
+    margin-top: 10px;
+    font-size: 64px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4A5568;
+}
+
+p{
+    font-size: 16px;
+    font-family: lato;
+    color: #4A5568;
+}
+
+.btn-primary{
+    background-color: #D24939 !important;
+    border: none;
+}
+

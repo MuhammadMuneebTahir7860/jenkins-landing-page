@@ -1,0 +1,32 @@
+.featureImages{
+    float: left;
+    margin-right: 10px;    
+}
+
+.featureText{
+    margin-left: 60px;
+    padding-left: 20px;
+    font-size: 12.8px;
+    font-family: lato -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A5568;
+}
+.featureHeading{
+    font-family: lato -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A5568;
+}
+
+.container{
+    padding-top: 10px;
+}
+.columns{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        padding-top: 5px;
+    }
+    .columns{
+        margin-top: 20px;
+    }
+}

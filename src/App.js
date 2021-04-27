@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Header from './commonComponents/header/header';
+import JenkinsTitle from './modules/JenkinsTitle/jenkinsTitle';
+import Craousel from './modules/carousel/carousel';
+import Features from '../src/commonComponents/features/features';
+import Video from './modules/video/video';
+import Events from './commonComponents/events/events';
+import BlogPosts from './commonComponents/BlogPosts/blogPost';
+import Support from './modules/support/support';
+import Footer from './commonComponents/footer/footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <JenkinsTitle/>
+      <Craousel/>
+      <Features />
+      <Video />
+      <Events/>
+      <BlogPosts/>
+      <Support />
+      <Footer />
     </div>
   );
 }
